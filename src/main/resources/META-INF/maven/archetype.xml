@@ -1,0 +1,19 @@
+<archetype>
+  <id>maven-sbs-plugin-archetype</id>
+  <resources>
+    <resource>pom.xml</resource>
+    <resource>src/main/assembly/assembly-plugin.xml</resource>
+    <resource>src/main/scala/SamplePlugin.scala</resource>
+    <resource>src/main/plugin/resources/images/readme.txt</resource>
+    <resource>src/main/plugin/resources/script/readme.txt</resource>
+    <resource>src/main/plugin/resources/styles/readme.txt</resource>
+    <resource>src/main/plugin/resources/templates/readme.txt</resource>
+    <resource>src/main/plugin/cache-config.xml</resource>
+    <resource>src/main/plugin/plugin.xml</resource>
+    <resource>src/main/plugin/schema.xml</resource>
+    <resource>src/main/plugin/spring.xml</resource>
+    <resource>src/main/plugin/struts.xml</resource>
+    <resource>src/main/resources/plugin_i18n.properties</resource>
+    <resource>src/test/scala/SamplePluginSpec.scala</resource>
+  </resources>
+</archetype>

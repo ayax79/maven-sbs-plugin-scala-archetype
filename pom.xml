@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.syncapse.maven</groupId>
+    <artifactId>maven-sbs-plugin-scala-archetype</artifactId>
+    <version>4.5.x-SNAPSHOT</version>
+    <name>maven-sbs-plugin-scala-archetype</name>
+    <url>http://maven.apache.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>jive.internal</id>
+            <name>Secure Jive Internal</name>
+            <url>http://maven-secure.jiveland.com/archiva/repository/jive.internal</url>
+        </repository>
+        <snapshotRepository>
+            <id>jive.snapshots</id>
+            <name>Secure Jive Snapshots</name>
+            <url>http://maven-secure.jiveland.com/archiva/repository/jive.snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

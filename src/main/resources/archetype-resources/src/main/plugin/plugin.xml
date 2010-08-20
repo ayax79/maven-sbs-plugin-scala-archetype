@@ -1,0 +1,23 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.jivesoftware.com/schemas/clearspace/2_5/plugin.xsd">
+    <name>${artifactId}</name>
+    <description>${artifactId}</description>
+    <author></author>
+    <version>1.0.0</version>
+    <minServerVersion>4.5.0</minServerVersion>
+    <!-- you will want to change your class name here! -->
+    <class>SamplePlugin</class>
+
+    <!-- The <components> element contains additions or customizations to
+	components in the user interface. Each <component> child element
+	represents a different UI piece, with its id attribute value
+	specifying which piece is being customized.
+
+	Here, you're customizing the user bar (the menu bar at the top of
+	each Clearspace page) so that its Browse menu gets a new entry
+	item, "Say Hello". The <url> element here specifies the URL that
+	Clearspace will load when the user clicks the item. In this
+	case, Clearspace will execute the sayhello action (which is defined
+	in the xwork-plugin.xml file).
+    -->
+</plugin>
